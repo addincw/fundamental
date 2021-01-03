@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fundamental/topics/state_managements/provider/provider_page.dart';
+// import 'package:fundamental/topics/state_managements/provider/provider_page.dart';
+import 'package:fundamental/topics/state_managements/provider_multiple/provider_multiple_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: ProviderPage(),
+      home: ProviderMultiplePage(),
     );
   }
 }
